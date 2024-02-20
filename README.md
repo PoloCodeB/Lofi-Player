@@ -15,10 +15,25 @@ Music by : [Lofi Girl](https://www.youtube.com/@LofiGirl)
 - Git
 
 ### Install:
-Step 1: Clone repo in your local computer\
-`git clone `
+Step 1: Clone repo in your local computer
+```
+git clone 
+```
 
-Step 2: Open terminal and acces to the path of project\
+Step 2: Open terminal and acces to the path of project
 
 Step 3: Run the commande
-`npm start`
+```
+npm install --save-dev electron
+```
+```
+npm install --save-dev @electron-forge/cli
+```
+```
+npx electron-forge import
+```
+
+Step 4: Run the app
+```
+npm start
+```
