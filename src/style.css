@@ -1,0 +1,88 @@
+@import url('../node_modules/bootstrap-icons/font/bootstrap-icons.css');
+@font-face {
+   font-family: inter;
+   src: url('assets/Inter-Medium.ttf');
+}
+@font-face {
+   font-family: inter_bold;
+   src: url('assets/Inter-Black.ttf');
+}
+body{
+   background-color: 131321;
+   margin: 0px;
+   padding: 0px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+h3{
+   font-family: inter_bold;
+   color: #fe5163;
+   font-size: 45px;
+   margin: 0px;
+   text-align: center;
+}
+h4{
+   font-family: inter;
+   color: white;
+   font-size: 10px;
+   margin: 0px;
+   text-align: center;
+   margin-left: 5px;
+   margin-right: 5px;
+}
+button{
+   font-family: inter;
+   width: 50%;
+   border: none;
+   background-color: bisque;
+   color: white;
+   padding: 10px;
+   border-radius: 10px;
+}
+#selector{
+   background-color: #232338;
+   width: calc(100% - 40px);
+   padding: 5px;
+   border-radius: 15px;
+   display: flex;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 20px;
+   margin-right: 20px;
+}
+#selector_volume{
+   margin-top: 10px;
+   background-color: #232338;
+   padding: 5px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 15px;
+   align-items: center;
+}
+#controle{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+img{
+   width: 100%;
+   height: auto;
+}
+#b1{
+   background-color: #fe5163;
+}
+#b2{
+   background-color: transparent;
+}
+#ppb{
+   font-size: 40px;
+   color: white;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+#mm{
+   position: fixed;
+   bottom: 0;
+}

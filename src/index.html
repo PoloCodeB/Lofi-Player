@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+   <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h3>Lofi Player</h3>
+
+   <h4>By PoloCode.B and music by Lofi Girl</h4>
+
+   <div id="selector">
+      <button id="b1" onclick="switch_mode(this)">Hip_Hop / Relax</button>
+      <button id="b2" onclick="switch_mode(this)">Synth / Chill</button>
+   </div>
+
+   <div id="controle">
+      <h4>-30s</h4>
+      <i class="bi bi-arrow-counterclockwise" style="color: white; font-size: 25px;" onclick="vb()"></i>
+      <i class="bi bi-pause-circle-fill" id="ppb" onclick="play_pause()"></i>
+      <i class="bi bi-arrow-clockwise" style="color: white; font-size: 25px;" onclick="vf()"></i>
+      <h4>+30s</h4>
+   </div>
+
+   <div id="selector_volume">
+      <i class="bi bi-dash-circle-fill" style="color: white; font-size: 16px;" onclick="v_moins()"></i>
+      <h4 id="v_text">100%</h4>
+      <i class="bi bi-plus-circle-fill" style="color: white; font-size: 16px;" onclick="v_plus()"></i>
+   </div>
+
+   <img src="assets/lofigirl.webp" id="mm">
+
+   <script src="renderer.js"></script>
+</body>
+</html>
