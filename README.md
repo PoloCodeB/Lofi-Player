@@ -3,11 +3,11 @@
 A player for Lofi Girl for relaxing your with two style of music.\
 Made with [electronJS](https://www.electronjs.org)
 
-### 👥 Credit:
+### Credit:
 Code by : [PoloCode.B](https://github.com/PoloCodeB)\
 Music by : [Lofi Girl](https://www.youtube.com/@LofiGirl)
 
-# Installatio:
+# 📥 Installation:
 
 ### Prerequisites:
 - NodeJS
@@ -37,3 +37,10 @@ Step 4: Run the app
 ```
 npm start
 ```
+
+# 🛠️ Build App:
+Run the commande for build app:
+```
+npm run make
+```
+In the new folder **out/make/...** your have the app.
